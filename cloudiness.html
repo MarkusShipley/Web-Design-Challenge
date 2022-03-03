@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Latitude: Data</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="primary.css">
+
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-0">
+
+        <a class="navbar-brand bg-info text-white p-2" href="index.html">Latitude</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="comparisons.html">Comparisons</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="row content">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+            <h2 class="text-left">Cloudiness</h2>
+            <hr class="my-4">
+            <img src="Resources/assets/images/Fig3.png" alt="City Latitude vs Cloudiness" class="img-fluid">
+            <p>This scatter plots clearly indicates that latitude and cloudiness do not have a clear trend or relationship. Regardless of the distance from the equator, cities have both sunny and cloudy days. Distance from the equator does not appear to be a factor in a cities cloudiness.</p>
+        </div>
+         <div class="col-sm-12 col-md-4 col-lg-4" >
+            <h2 class="text-left">Visualizations</h2>
+            <hr class="my-4">
+            <a href="maxtemp.html">
+                <img src="Resources/assets/images/Fig1.png" class="rounded float-left thumbnail" alt="Latitude vs Temperature">
+            </a>
+            <a href="humidity.html">
+                <img src="Resources/assets/images/Fig2.png" class="rounded float right thumbnail" alt="Latitude vs Humidity">
+            </a>
+            <a href="cloudiness.html">
+                <img src="Resources/assets/images/Fig3.png" class="rounded float-left  thumbnail" alt="Latitude vs Temperature">
+            </a>
+            <a href="windspeed.html">
+                <img src="Resources/assets/images/Fig4.png" class="rounded float right  thumbnail" alt="Latitude vs Humidity">
+            </a>
+        </div>
+    </div>
+    <!-- Bootstrap javascript tags -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+
+</body>
+<footer>Designed by Markus Stephen Shipley</footer>
+</html>
